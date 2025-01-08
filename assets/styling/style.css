@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', cursive;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 146, 114);
+}
+
+#panel {
+    overflow: hidden;
+    height: 90%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#ptop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10%;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(70, 94, 70);
+}
+
+.element h2 {
+    /* font-size: 1.2rem;
+    font-weight: 500; */
+    color: #fff;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.7rem;
+    width: 3.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(114, 146, 114);
+}
+
+#pbtm {
+    padding: 1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 50%;
+    background-color: rgb(114, 146, 114);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bubble:hover {
+    background-color: rgb(70, 94, 70);
+}
+
+
+#message {
+    color: rgb(70, 94, 70);
+    font-size: 4rem;
+}
